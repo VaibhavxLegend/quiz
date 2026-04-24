@@ -198,7 +198,7 @@
       <header>
         <h1>Quiz Practice</h1>
         <div class="sub">
-          Loads questions from <code>quiz2.son</code>. Wrong answers are placed
+          Loads questions from <code>quiz2.json</code>. Wrong answers are placed
           back into the stack at a random position.
         </div>
         <div class="stats">
@@ -212,7 +212,7 @@
 
       <main>
         <div class="card">
-          <div class="status" id="status">Loading quiz2.son…</div>
+          <div class="status" id="status">Loading quiz2.json…</div>
         </div>
 
         <div class="card hidden" id="quizCard">
@@ -245,7 +245,7 @@
         <div class="empty hidden" id="emptyState">
           No quiz questions were loaded.
           <br /><br />
-          Expected <code>quiz2.son</code> to contain an array like:
+          Expected <code>quiz2.json</code> to contain an array like:
           <pre>[{"question":"2 + 2?","options":["3","4"],"answer":"4"}]</pre>
         </div>
       </main>
@@ -445,8 +445,8 @@
 
         els.explanation.classList.remove("hidden");
         els.explanation.textContent = state.current.explanation
-          ? `Answer: ${state.current.correct || "(see quiz2.son)"}\n${state.current.explanation}`
-          : `Answer: ${state.current.correct || "(see quiz2.son)"}`;
+          ? `Answer: ${state.current.correct || "(see quiz2.json)"}\n${state.current.explanation}`
+          : `Answer: ${state.current.correct || "(see quiz2.json)"}`;
 
         revealAnswer(chosen);
         updateStats();
@@ -474,7 +474,7 @@
         els.feedback.className = "feedback bad";
         els.feedback.textContent = "Skipped. It was put back into the stack.";
         els.explanation.classList.remove("hidden");
-        els.explanation.textContent = `Answer: ${state.current.correct || "(see quiz2.son)"}`;
+        els.explanation.textContent = `Answer: ${state.current.correct || "(see quiz2.json)"}`;
         revealAnswer(null);
         updateStats();
         state.locked = true;
@@ -517,14 +517,14 @@
 
       function initializeQuizData(data) {
         if (!Array.isArray(data))
-          throw new Error("quiz2.son must contain an array.");
+          throw new Error("quiz2.json must contain an array.");
 
         state.questions = data.map(normalizeQuestion).filter((q) => q.question);
         state.deck = shuffle(state.questions);
         updateStats();
 
         if (!state.questions.length) {
-          showEmpty("quiz2.son loaded, but no valid questions were found.");
+          showEmpty("quiz2.json loaded, but no valid questions were found.");
           setStatus("No questions available.");
           return;
         }
@@ -534,9 +534,9 @@
 
       function showManualJsonLoader(errorMessage) {
         showEmpty(
-          `Could not load <code>quiz2.son</code> automatically.<br />${errorMessage}<br /><br />` +
+          `Could not load <code>quiz2.json</code> automatically.<br />${errorMessage}<br /><br />` +
             `If you opened this page directly from disk, your browser may block <code>fetch</code> for local files.<br /><br />` +
-            `<button id="pickJsonBtn">Choose quiz2.son manually</button>`,
+            `<button id="pickJsonBtn">Choose quiz2.json manually</button>`,
         );
 
         const pickBtn = document.getElementById("pickJsonBtn");
@@ -569,9 +569,9 @@
 
       async function loadQuiz() {
         try {
-          const res = await fetch("quiz2.son", { cache: "no-store" });
+          const res = await fetch("quiz2.json", { cache: "no-store" });
           if (!res.ok)
-            throw new Error(`Failed to load quiz2.son (${res.status})`);
+            throw new Error(`Failed to load quiz2.json (${res.status})`);
           const data = await res.json();
           initializeQuizData(data);
         } catch (err) {
@@ -579,13 +579,13 @@
           if (window.location.protocol === "file:") {
             showManualJsonLoader(message);
             setStatus(
-              "Unable to auto-load quiz2.son on file://. Use manual loader.",
+              "Unable to auto-load quiz2.json on file://. Use manual loader.",
             );
             return;
           }
 
-          showEmpty(`Could not load <code>quiz2.son</code>.<br />${message}`);
-          setStatus("Unable to load quiz2.son.");
+          showEmpty(`Could not load <code>quiz2.json</code>.<br />${message}`);
+          setStatus("Unable to load quiz2.json.");
         }
       }
 
