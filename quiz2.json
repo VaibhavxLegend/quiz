@@ -1,0 +1,1450 @@
+[
+  {
+    "id": "Q1",
+    "question": "What is the primary goal of Education for Sustainable Development (ESD)?",
+    "options": [
+      "To teach only environmental science",
+      "To develop competencies for sustainable development",
+      "To focus solely on economic growth",
+      "To replace traditional education"
+    ],
+    "answer": "To develop competencies for sustainable development",
+    "explanation": "From Week 1 notes."
+  },
+  {
+    "id": "Q2",
+    "question": "Which document, adopted at Rio+20 in 2012, emphasized the development of Sustainable Development Goals (SDGs)?",
+    "options": [
+      "The Johannesburg Declaration",
+      "Agenda 21",
+      "The Future We Want",
+      "Millennium Declaration"
+    ],
+    "answer": "The Future We Want",
+    "explanation": "From Week 1 notes."
+  },
+  {
+    "id": "Q3",
+    "question": "The concept of sustainable development was first introduced in which report?",
+    "options": [
+      "The Future We Want",
+      "The Millennium Report",
+      "The Brundtland Report",
+      "Agenda 21"
+    ],
+    "answer": "The Brundtland Report",
+    "explanation": "From Week 1 notes."
+  },
+  {
+    "id": "Q4",
+    "question": "Which of the following is a target of SDG 1?",
+    "options": [
+      "End all forms of hunger and malnutrition",
+      "Eradicate extreme poverty",
+      "Promote sustainable tourism",
+      "Achieve universal primary education"
+    ],
+    "answer": "Eradicate extreme poverty",
+    "explanation": "From Week 1 notes."
+  },
+  {
+    "id": "Q5",
+    "question": "___ occurs when the body adapts to prolonged absence of food.",
+    "options": [
+      "Obesity",
+      "Malnutrition",
+      "Hypernutrition",
+      "None of the above"
+    ],
+    "answer": "Malnutrition",
+    "explanation": "From Week 1 notes."
+  },
+  {
+    "id": "Q6",
+    "question": "The National ECCE policy in India stands for--------",
+    "options": [
+      "Early Cultural and Care Engagement",
+      "Early Child Community Enrichment",
+      "Early Childhood Care and Education",
+      "Early Childhood Career Engagement"
+    ],
+    "answer": "Early Childhood Care and Education",
+    "explanation": "From Week 1 notes."
+  },
+  {
+    "id": "Q7",
+    "question": "What percentage of the human body is composed of water approximately, highlighting the importance of SDG 6?",
+    "options": [
+      "30%",
+      "15%",
+      "65%",
+      "90%"
+    ],
+    "answer": "65%",
+    "explanation": "From Week 1 notes."
+  },
+  {
+    "id": "Q8",
+    "question": "Which SDG emphasizes 'Affordable and Clean Energy'?",
+    "options": [
+      "SDG 5",
+      "SDG 7",
+      "SDG 9",
+      "SDG 13"
+    ],
+    "answer": "SDG 7",
+    "explanation": "From Week 1 notes."
+  },
+  {
+    "id": "Q9",
+    "question": "The SDGs are also known as--------------------.",
+    "options": [
+      "State goals",
+      "Continental goals",
+      "Regional goals",
+      "Global goals"
+    ],
+    "answer": "Global goals",
+    "explanation": "From Week 1 notes."
+  },
+  {
+    "id": "Q10",
+    "question": "The Global Hunger Index ranks countries based on indicators such as:",
+    "options": [
+      "Child mortality, poverty rates, and school dropout rates",
+      "Malnutrition, undernourishment, and child mortality",
+      "Disease prevalence, sanitation access, and literacy",
+      "Food production, trade policies, and GDP"
+    ],
+    "answer": "Malnutrition, undernourishment, and child mortality",
+    "explanation": "From Week 1 notes."
+  },
+  {
+    "id": "Q11",
+    "question": "___ absorb about 30% of carbon dioxide produced by humans.",
+    "options": [
+      "Animals",
+      "Clouds",
+      "Oceans",
+      "Mountains"
+    ],
+    "answer": "Oceans",
+    "explanation": "From Week 1 notes."
+  },
+  {
+    "id": "Q12",
+    "question": "As a means of ___, education is an important tool to achieve SDGs.",
+    "options": [
+      "Manipulation",
+      "Politicization",
+      "Implementation",
+      "Exploitation"
+    ],
+    "answer": "Implementation",
+    "explanation": "From Week 2 notes."
+  },
+  {
+    "id": "Q13",
+    "question": "One of the essential characteristics of ESD is that it--------------.",
+    "options": [
+      "Limits its focus to environmental sustainability",
+      "Focuses solely on primary education",
+      "Uses interdisciplinary approaches",
+      "Prioritizes physical education"
+    ],
+    "answer": "Uses interdisciplinary approaches",
+    "explanation": "From Week 2 notes."
+  },
+  {
+    "id": "Q14",
+    "question": "Education for Sustainable Development aims to -------------.",
+    "options": [
+      "Prepare individuals for competitive exams",
+      "Equip learners to address global challenges through informed actions",
+      "Promote industrial and corporate development",
+      "Train individuals in emotional skillsets"
+    ],
+    "answer": "Equip learners to address global challenges through informed actions",
+    "explanation": "From Week 2 notes."
+  },
+  {
+    "id": "Q15",
+    "question": "The Declaration on the Right to Development (1986) identifies which of the following as essential for sustainable development?",
+    "options": [
+      "National isolation",
+      "International cooperation",
+      "Technological automation",
+      "Technological awareness"
+    ],
+    "answer": "International cooperation",
+    "explanation": "From Week 2 notes."
+  },
+  {
+    "id": "Q16",
+    "question": "The concept of sustainability is ___.",
+    "options": [
+      "rigid",
+      "evolving",
+      "political",
+      "fixed"
+    ],
+    "answer": "evolving",
+    "explanation": "From Week 2 notes."
+  },
+  {
+    "id": "Q17",
+    "question": "Which pedagogical approach is emphasized in Education for Sustainable Development (ESD)?",
+    "options": [
+      "Physical education",
+      "Rote memorization",
+      "Participatory and critical thinking methods",
+      "Sole focus on textbook-based education"
+    ],
+    "answer": "Participatory and critical thinking methods",
+    "explanation": "From Week 2 notes."
+  },
+  {
+    "id": "Q18",
+    "question": "SDGs have one advantage over the MDGs that they are ___.",
+    "options": [
+      "local",
+      "universal",
+      "political",
+      "exclusive"
+    ],
+    "answer": "universal",
+    "explanation": "From Week 2 notes."
+  },
+  {
+    "id": "Q19",
+    "question": "GDI stands for ___.",
+    "options": [
+      "Global Development Industry",
+      "Gender and Development Index",
+      "Global Discrimination Index",
+      "Gender Discrimination Index"
+    ],
+    "answer": "Gender and Development Index",
+    "explanation": "From Week 2 notes."
+  },
+  {
+    "id": "Q20",
+    "question": "Peace education should ___.",
+    "options": [
+      "Focus on school education",
+      "Focus on all sections of society",
+      "Focus exclusively on conflict areas",
+      "Focus exclusively on vulnerable sections"
+    ],
+    "answer": "Focus on all sections of society",
+    "explanation": "From Week 2 notes."
+  },
+  {
+    "id": "Q21",
+    "question": "One of the principles of ESD involves harmonizing economic development with -------.",
+    "options": [
+      "social development only",
+      "both social and environment development",
+      "environment development only",
+      "emotional development"
+    ],
+    "answer": "both social and environment development",
+    "explanation": "From Week 2 notes."
+  },
+  {
+    "id": "Q22",
+    "question": "Global citizenship refers to the belief that individuals are members of:------------",
+    "options": [
+      "Single networks",
+      "Isolated societies",
+      "Multiple diverse networks",
+      "Independent economies"
+    ],
+    "answer": "Multiple diverse networks",
+    "explanation": "From Week 3 notes."
+  },
+  {
+    "id": "Q23",
+    "question": "Which domain of learning is not part of GCED?",
+    "options": [
+      "Cognitive",
+      "Socio-emotional",
+      "Behavioral",
+      "Technical"
+    ],
+    "answer": "Technical",
+    "explanation": "From Week 3 notes."
+  },
+  {
+    "id": "Q24",
+    "question": "The domains of GCED emphasize: -------------------",
+    "options": [
+      "Knowledge, empathy, and action",
+      "Memory, logic, and reasoning",
+      "Isolation, control, and obedience",
+      "Rote learning and repetition"
+    ],
+    "answer": "Knowledge, empathy, and action",
+    "explanation": "From Week 3 notes."
+  },
+  {
+    "id": "Q25",
+    "question": "Global Citizenship Education (GCED) is directly linked to which SDG target?",
+    "options": [
+      "4.7",
+      "8.1",
+      "11.4",
+      "7.5"
+    ],
+    "answer": "4.7",
+    "explanation": "From Week 3 notes."
+  },
+  {
+    "id": "Q26",
+    "question": "UNESCO-MGIEP advocates for the integration of ____ into education systems to promote global citizenship.",
+    "options": [
+      "Physical fitness",
+      "Social and emotional learning",
+      "AI innovation",
+      "Legal awareness"
+    ],
+    "answer": "Social and emotional learning",
+    "explanation": "From Week 3 notes."
+  },
+  {
+    "id": "Q27",
+    "question": "The green economy has interconnected goals, but which of the following is NOT one of them?",
+    "options": [
+      "Economic growth",
+      "Reducing greenhouse gas emissions",
+      "Increasing social exclusion",
+      "Alleviating poverty"
+    ],
+    "answer": "Increasing social exclusion",
+    "explanation": "From Week 3 notes."
+  },
+  {
+    "id": "Q28",
+    "question": "TVET stands for: ---------",
+    "options": [
+      "Technical and Vocational Education and Training",
+      "Technological Values in Educational Training",
+      "Teaching Values for Education Training",
+      "Technical Vision in Education Training"
+    ],
+    "answer": "Technical and Vocational Education and Training",
+    "explanation": "From Week 3 notes."
+  },
+  {
+    "id": "Q29",
+    "question": "Global citizenship helps students develop an awareness of:----------------",
+    "options": [
+      "Independence from global systems",
+      "Active collaboration and interdependence",
+      "Cultural homogeneity",
+      "Localized solutions only"
+    ],
+    "answer": "Active collaboration and interdependence",
+    "explanation": "From Week 3 notes."
+  },
+  {
+    "id": "Q30",
+    "question": "Cultural and natural heritage serve to: ----------------",
+    "options": [
+      "Hinder economic development",
+      "Isolate communities",
+      "Strengthen national unity",
+      "Diminish diversity"
+    ],
+    "answer": "Strengthen national unity",
+    "explanation": "From Week 3 notes."
+  },
+  {
+    "id": "Q31",
+    "question": "Which of the following is emphasized as an under-recognized resource for sustainable development?",
+    "options": [
+      "Non-renewable resources",
+      "Financial investment",
+      "Cultural heritage",
+      "Technological innovation"
+    ],
+    "answer": "Cultural heritage",
+    "explanation": "From Week 3 notes."
+  },
+  {
+    "id": "Q32",
+    "question": "IGP stands for ___.",
+    "options": [
+      "Isolated Governance Policy",
+      "Institutional Growth Permit",
+      "Institutional Greening Plan",
+      "Instructional Governance Policy"
+    ],
+    "answer": "Institutional Greening Plan",
+    "explanation": "From Week 4 notes."
+  },
+  {
+    "id": "Q33",
+    "question": "___ highlight the classification of the shift in the work and worker requirements of an existing occupation due to green economic activities and technologies.",
+    "options": [
+      "GICO",
+      "GNEO",
+      "GIDO",
+      "GESO"
+    ],
+    "answer": "GESO",
+    "explanation": "From Week 4 notes."
+  },
+  {
+    "id": "Q34",
+    "question": "The International Framework for Greening TVET for a Green Society is a: ---------",
+    "options": [
+      "Three-tier approach",
+      "Two-stage approach",
+      "Hierarchical system",
+      "One step process"
+    ],
+    "answer": "Three-tier approach",
+    "explanation": "From Week 4 notes."
+  },
+  {
+    "id": "Q35",
+    "question": "A holistic framework for TVET institutions is required to support: -----------",
+    "options": [
+      "Green society only",
+      "Green economy only",
+      "Both A and B",
+      "None of the above"
+    ],
+    "answer": "Both A and B",
+    "explanation": "From Week 4 notes."
+  },
+  {
+    "id": "Q36",
+    "question": "The National Green Growth Policy focuses on: ----------------",
+    "options": [
+      "Green occupations",
+      "Climate change",
+      "Socio-economic development",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "explanation": "From Week 4 notes."
+  },
+  {
+    "id": "Q37",
+    "question": "Green practices in classroom is an indicator of ___.",
+    "options": [
+      "Green research",
+      "Green culture",
+      "Green curriculum",
+      "Green house"
+    ],
+    "answer": "Green curriculum",
+    "explanation": "From Week 4 notes."
+  },
+  {
+    "id": "Q38",
+    "question": "Not-for-profit entrepreneurship is an example of ___.",
+    "options": [
+      "Social entrepreneurship",
+      "Blue entrepreneurship",
+      "Critical entrepreneurship",
+      "Corporate entrepreneurship"
+    ],
+    "answer": "Social entrepreneurship",
+    "explanation": "From Week 4 notes."
+  },
+  {
+    "id": "Q39",
+    "question": "Commitment to end diseases like AIDS and malaria is focused on by ___.",
+    "options": [
+      "SDG 1",
+      "SDG 3",
+      "SDG 11",
+      "SDG 8"
+    ],
+    "answer": "SDG 3",
+    "explanation": "From Week 4 notes."
+  },
+  {
+    "id": "Q40",
+    "question": "Genetically defined human motor capacity is referred to as ___.",
+    "options": [
+      "emotional fitness",
+      "spiritual fitness",
+      "physical fitness",
+      "aesthetic fitness"
+    ],
+    "answer": "physical fitness",
+    "explanation": "From Week 4 notes."
+  },
+  {
+    "id": "Q41",
+    "question": "Nutritional requirements for an individual are determined by ___.",
+    "options": [
+      "body mass",
+      "physical activity",
+      "both A & B",
+      "None of the above"
+    ],
+    "answer": "both A & B",
+    "explanation": "From Week 4 notes."
+  },
+  {
+    "id": "Q42",
+    "question": "Which of the following is not an indigenous system of medicine?",
+    "options": [
+      "ayurveda",
+      "siddha",
+      "surgery",
+      "homeopathy"
+    ],
+    "answer": "surgery",
+    "explanation": "From Week 5 notes."
+  },
+  {
+    "id": "Q43",
+    "question": "Which of the following is not a health system building block as suggested by WHO?",
+    "options": [
+      "Financing",
+      "Service delivery",
+      "Politics",
+      "Leadership/Governance"
+    ],
+    "answer": "Politics",
+    "explanation": "From Week 5 notes."
+  },
+  {
+    "id": "Q44",
+    "question": "Technology in healthcare infrastructure can be used through ___.",
+    "options": [
+      "Increasing cost of medicine",
+      "Mobile hospital",
+      "Mobile medicine",
+      "None of the above"
+    ],
+    "answer": "Mobile hospital",
+    "explanation": "From Week 5 notes."
+  },
+  {
+    "id": "Q45",
+    "question": "___ in healthcare is how well a healthcare system meets its objectives.",
+    "options": [
+      "Cost",
+      "Value",
+      "Currency",
+      "Expense"
+    ],
+    "answer": "Value",
+    "explanation": "From Week 5 notes."
+  },
+  {
+    "id": "Q46",
+    "question": "The National Digital Health Mission will help in better management using the open ___ framework.",
+    "options": [
+      "MPI",
+      "KPI",
+      "UPI",
+      "API"
+    ],
+    "answer": "API",
+    "explanation": "From Week 5 notes."
+  },
+  {
+    "id": "Q47",
+    "question": "The POSHAN Abhiyan in India was launched in ___.",
+    "options": [
+      "1999",
+      "2023",
+      "2018",
+      "1965"
+    ],
+    "answer": "2018",
+    "explanation": "From Week 5 notes."
+  },
+  {
+    "id": "Q48",
+    "question": "Sus-QI extends the scope of QI to include ___.",
+    "options": [
+      "ecological sustainability",
+      "financial value",
+      "short term perspective",
+      "economic profit"
+    ],
+    "answer": "ecological sustainability",
+    "explanation": "From Week 5 notes."
+  },
+  {
+    "id": "Q49",
+    "question": "___ is the worst level of food security for a country.",
+    "options": [
+      "Drought",
+      "Famine",
+      "Flood",
+      "Obesity"
+    ],
+    "answer": "Famine",
+    "explanation": "From Week 5 notes."
+  },
+  {
+    "id": "Q50",
+    "question": "The ___ program in India has been key source of extra nourishment for millions of school going children.",
+    "options": [
+      "post-day meal",
+      "end-day meal",
+      "mid-day meal",
+      "start-day meal"
+    ],
+    "answer": "mid-day meal",
+    "explanation": "From Week 5 notes."
+  },
+  {
+    "id": "Q51",
+    "question": "Which of the following is not a pillar of food security?",
+    "options": [
+      "Food access",
+      "Food tax",
+      "Food availability",
+      "Food use"
+    ],
+    "answer": "Food tax",
+    "explanation": "From Week 5 notes."
+  },
+  {
+    "id": "Q52",
+    "question": "___ systems provide water for countries with unreliable or low rainfall.",
+    "options": [
+      "Irrigation",
+      "Infrastructural",
+      "Plumbing",
+      "Landscaping"
+    ],
+    "answer": "Irrigation",
+    "explanation": "From Week 6 notes."
+  },
+  {
+    "id": "Q53",
+    "question": "In high income countries, hunger is mainly caused due to ___.",
+    "options": [
+      "strikes",
+      "fasting",
+      "poverty",
+      "politics"
+    ],
+    "answer": "poverty",
+    "explanation": "From Week 6 notes."
+  },
+  {
+    "id": "Q54",
+    "question": "___ as a form of malnutrition has to with quality of food and not quantity.",
+    "options": [
+      "Obesity",
+      "Starvation",
+      "Exposed hunger",
+      "Hidden hunger"
+    ],
+    "answer": "Hidden hunger",
+    "explanation": "From Week 6 notes."
+  },
+  {
+    "id": "Q55",
+    "question": "Which of the following is not a sustainable agriculture practice?",
+    "options": [
+      "crop rotation",
+      "using chemical fertilizers",
+      "mixed cropping with pulses",
+      "integrated pest management"
+    ],
+    "answer": "using chemical fertilizers",
+    "explanation": "From Week 6 notes."
+  },
+  {
+    "id": "Q56",
+    "question": "Which of the following is a positive impact of MGNREGA programme?",
+    "options": [
+      "increased rural wages",
+      "reduced gender wage gaps",
+      "better access to food",
+      "all of the above"
+    ],
+    "answer": "all of the above",
+    "explanation": "From Week 6 notes."
+  },
+  {
+    "id": "Q57",
+    "question": "According to research, mother's education is positively associated with ___.",
+    "options": [
+      "children's better health",
+      "children's better education",
+      "children's better nutrition",
+      "all of the above"
+    ],
+    "answer": "all of the above",
+    "explanation": "From Week 6 notes."
+  },
+  {
+    "id": "Q58",
+    "question": "As the world population is growing, food production needs to rise by approximately ___ by 2030 to meet the needs.",
+    "options": [
+      "50%",
+      "2%",
+      "500%",
+      "0.5%"
+    ],
+    "answer": "50%",
+    "explanation": "From Week 6 notes."
+  },
+  {
+    "id": "Q59",
+    "question": "SDG 7 (Affordable and clean energy) has __ major targets.",
+    "options": [
+      "2",
+      "5",
+      "10",
+      "20"
+    ],
+    "answer": "5",
+    "explanation": "From Week 6 notes."
+  },
+  {
+    "id": "Q60",
+    "question": "Which state has the highest renewable energy capacity?",
+    "options": [
+      "Delhi",
+      "Assam",
+      "Karnataka",
+      "West Bengal"
+    ],
+    "answer": "Karnataka",
+    "explanation": "From Week 6 notes."
+  },
+  {
+    "id": "Q61",
+    "question": "The ___ had won the Peace Nobel in 2007 for its efforts in creating awareness for the fight against climate change.",
+    "options": [
+      "IIPP",
+      "IPCC",
+      "IPPP",
+      "ICPP"
+    ],
+    "answer": "IPCC",
+    "explanation": "From Week 6 notes."
+  },
+  {
+    "id": "Q62",
+    "question": "Renewable energy technologies provide ___.",
+    "options": [
+      "lighting",
+      "heating",
+      "mobility",
+      "all of the above"
+    ],
+    "answer": "all of the above",
+    "explanation": "From Week 7 notes."
+  },
+  {
+    "id": "Q63",
+    "question": "Loss of biodiversity and risk of nuclear accidents are examples of ___ impacts of extraction and use of fuels.",
+    "options": [
+      "psychological",
+      "economic",
+      "environmental",
+      "biological"
+    ],
+    "answer": "environmental",
+    "explanation": "From Week 7 notes."
+  },
+  {
+    "id": "Q64",
+    "question": "Which of the following is not a political and security driver of renewable energy?",
+    "options": [
+      "improve energy security",
+      "increase reliability and resilience",
+      "ensure energy democracy",
+      "improve public health"
+    ],
+    "answer": "improve public health",
+    "explanation": "From Week 7 notes."
+  },
+  {
+    "id": "Q65",
+    "question": "Hydrogen is produced mainly from a ___ process.",
+    "options": [
+      "biological",
+      "photosynthesis",
+      "electrical",
+      "thermochemical"
+    ],
+    "answer": "thermochemical",
+    "explanation": "From Week 7 notes."
+  },
+  {
+    "id": "Q66",
+    "question": "Which of the following is the key EV industry body in India?",
+    "options": [
+      "Society of Consumers of Electric Vehicles",
+      "Body of Electric Vehicles",
+      "Committee of Electric Vehicles",
+      "Society of Manufacturers of Electric Vehicles"
+    ],
+    "answer": "Society of Manufacturers of Electric Vehicles",
+    "explanation": "From Week 7 notes."
+  },
+  {
+    "id": "Q67",
+    "question": "The ___ agreement is a legally binding international treaty on climate change.",
+    "options": [
+      "Delhi",
+      "Italy",
+      "Chicago",
+      "Paris"
+    ],
+    "answer": "Paris",
+    "explanation": "From Week 7 notes."
+  },
+  {
+    "id": "Q68",
+    "question": "As a target of COP26, ___ is the agreed limit for the temperature to rise to avoid climate catastrophe.",
+    "options": [
+      "1.5° C",
+      "15° C",
+      "3.5° C",
+      "10° C"
+    ],
+    "answer": "1.5° C",
+    "explanation": "From Week 7 notes."
+  },
+  {
+    "id": "Q69",
+    "question": "Zero-carbon solutions are becoming competitive across economic sectors, representing ___ % of emissions presently.",
+    "options": [
+      "2",
+      "25",
+      "70",
+      "90"
+    ],
+    "answer": "25",
+    "explanation": "From Week 7 notes."
+  },
+  {
+    "id": "Q70",
+    "question": "Which university in India offers a dual degree in electrical engineering with specialization in power and energy system?",
+    "options": [
+      "IIT Goa",
+      "IIT Jammu",
+      "IIT Kharagpur",
+      "NIT Kurukshetra"
+    ],
+    "answer": "IIT Kharagpur",
+    "explanation": "From Week 7 notes."
+  },
+  {
+    "id": "Q71",
+    "question": "Intentionally setting fire to straw that remains after grains like rice and wheat are harvested is called ___.",
+    "options": [
+      "staple burning",
+      "stubble burning",
+      "straw burning",
+      "none of the above"
+    ],
+    "answer": "stubble burning",
+    "explanation": "From Week 7 notes."
+  },
+  {
+    "id": "Q72",
+    "question": "The Okayama Commitments, Japan focus on ___.",
+    "options": [
+      "environmental conservation",
+      "literacy",
+      "empowerment",
+      "all of the above"
+    ],
+    "answer": "all of the above",
+    "explanation": "From Week 8 notes."
+  },
+  {
+    "id": "Q73",
+    "question": "Education is related to SDG 1 such that ___.",
+    "options": [
+      "education helps in skills required to build resilient infrastructure",
+      "education enhances skills to use natural resources more sustainably",
+      "education is critical to lifting people out of poverty",
+      "education helps reduce gender gaps"
+    ],
+    "answer": "education is critical to lifting people out of poverty",
+    "explanation": "From Week 8 notes."
+  },
+  {
+    "id": "Q74",
+    "question": "The ___ model structures sustainability competencies into cognitive, affective motivational and behavioral goal dimensions.",
+    "options": [
+      "canvas",
+      "picture",
+      "hexagon",
+      "frame"
+    ],
+    "answer": "frame",
+    "explanation": "From Week 8 notes."
+  },
+  {
+    "id": "Q75",
+    "question": "An affective goal commitment or a _ of actions, is the core of any motivation.",
+    "options": [
+      "never assessed sequence",
+      "positively assessed sequence",
+      "newly assessed sequence",
+      "biologically assessed sequence"
+    ],
+    "answer": "positively assessed sequence",
+    "explanation": "From Week 8 notes."
+  },
+  {
+    "id": "Q76",
+    "question": "Which of the following is false?",
+    "options": [
+      "local problems can have global consequences",
+      "a systems thinking approach is important for sustainability issues",
+      "women play a vital role in environmental management",
+      "warfare is inherently constructive"
+    ],
+    "answer": "warfare is inherently constructive",
+    "explanation": "From Week 8 notes."
+  },
+  {
+    "id": "Q77",
+    "question": "The ___ principle advocates to take action to avoid possibility of irreversible environmental or social harm.",
+    "options": [
+      "precautionary",
+      "secondary",
+      "participatory",
+      "permanent"
+    ],
+    "answer": "precautionary",
+    "explanation": "From Week 8 notes."
+  },
+  {
+    "id": "Q78",
+    "question": "GAP on ESD stands for Global ___ Programme.",
+    "options": [
+      "Action",
+      "Activity",
+      "Affect",
+      "Antecedent"
+    ],
+    "answer": "Action",
+    "explanation": "From Week 8 notes."
+  },
+  {
+    "id": "Q79",
+    "question": "Which of the following is not a key competency for sustainable development?",
+    "options": [
+      "anticipatory",
+      "isolative",
+      "collaborative",
+      "normative"
+    ],
+    "answer": "isolative",
+    "explanation": "From Week 8 notes."
+  },
+  {
+    "id": "Q80",
+    "question": "___ pedagogy sees students as autonomous learners and emphasizes active development of knowledge.",
+    "options": [
+      "Institution-centered",
+      "Learner-centered",
+      "Media-centered",
+      "Teacher-centered"
+    ],
+    "answer": "Learner-centered",
+    "explanation": "From Week 8 notes."
+  },
+  {
+    "id": "Q81",
+    "question": "Experience for action-oriented learning may come from a ___.",
+    "options": [
+      "project",
+      "internship",
+      "facilitating a workshop",
+      "all of the above"
+    ],
+    "answer": "all of the above",
+    "explanation": "From Week 8 notes."
+  },
+  {
+    "id": "Q82",
+    "question": "Utopian story-telling and science-fiction thinking are some examples of ___ method in ESD.",
+    "options": [
+      "economic and environmental exercises",
+      "analysis of complex systems",
+      "theoretical learning",
+      "vision building exercises"
+    ],
+    "answer": "vision building exercises",
+    "explanation": "From Week 9 notes."
+  },
+  {
+    "id": "Q83",
+    "question": "Which of the following is not a key competency area for assessment of ESD?",
+    "options": [
+      "interpersonal",
+      "intrapersonal",
+      "systems thinking",
+      "past thinking"
+    ],
+    "answer": "past thinking",
+    "explanation": "From Week 9 notes."
+  },
+  {
+    "id": "Q84",
+    "question": "The ___ intelligences represent a sum total of human capacities to influence, interact with, and communicate with our world.",
+    "options": [
+      "singular",
+      "external",
+      "internal",
+      "multiple"
+    ],
+    "answer": "multiple",
+    "explanation": "From Week 9 notes."
+  },
+  {
+    "id": "Q85",
+    "question": "___ intelligence refers to seeing and mapping the world in 3D.",
+    "options": [
+      "Linguistic",
+      "Musical",
+      "Naturalist",
+      "Spatial"
+    ],
+    "answer": "Spatial",
+    "explanation": "From Week 9 notes."
+  },
+  {
+    "id": "Q86",
+    "question": "ESD assessment is a part of a/an___ of planning, implementing, learning reflection and replanning.",
+    "options": [
+      "interactive action/reflection",
+      "linear",
+      "incomplete",
+      "none of the above"
+    ],
+    "answer": "interactive action/reflection",
+    "explanation": "From Week 9 notes."
+  },
+  {
+    "id": "Q87",
+    "question": "The idea of ___ implies changes in individual action intertwined with reorganization of societal structures.",
+    "options": [
+      "big transformation",
+      "small transformation",
+      "slow transformation",
+      "fast transformation"
+    ],
+    "answer": "big transformation",
+    "explanation": "From Week 9 notes."
+  },
+  {
+    "id": "Q88",
+    "question": "Transformative learning and two major focuses: ___ and ___ learning.",
+    "options": [
+      "instrumental, communicative",
+      "interactive, commercial",
+      "intuitive, cognitive",
+      "industrial, constructive"
+    ],
+    "answer": "instrumental, communicative",
+    "explanation": "From Week 9 notes."
+  },
+  {
+    "id": "Q89",
+    "question": "When a learner finds what they believed in the past is not accurate, they experience ___.",
+    "options": [
+      "a critical assessment of the world",
+      "a disorienting dilemma",
+      "a dissatisfaction",
+      "none of the above"
+    ],
+    "answer": "a disorienting dilemma",
+    "explanation": "From Week 9 notes."
+  },
+  {
+    "id": "Q90",
+    "question": "Which of the following is not a key principle of adult education?",
+    "options": [
+      "self concept",
+      "reluctance to learn",
+      "motivation",
+      "role of experience"
+    ],
+    "answer": "reluctance to learn",
+    "explanation": "From Week 9 notes."
+  },
+  {
+    "id": "Q91",
+    "question": "Following are the vital components/drivers of sustainable education, except ___.",
+    "options": [
+      "profit",
+      "planet",
+      "people",
+      "punishment"
+    ],
+    "answer": "punishment",
+    "explanation": "From Week 9 notes."
+  },
+  {
+    "id": "Q92",
+    "question": "Which of the following is false about sustainable leaders?",
+    "options": [
+      "they take care of how their role in their organization plays in a larger context",
+      "they are key in shaping the future",
+      "they set strategies for the triple bottom line",
+      "they look at immediate gains"
+    ],
+    "answer": "they look at immediate gains",
+    "explanation": "From Week 10 notes."
+  },
+  {
+    "id": "Q93",
+    "question": "Organizations are now expected to take responsibility for the ways in which their activities impact ___.",
+    "options": [
+      "their customers and workers",
+      "the society",
+      "the environment",
+      "all of the above"
+    ],
+    "answer": "all of the above",
+    "explanation": "From Week 10 notes."
+  },
+  {
+    "id": "Q94",
+    "question": "All leaders, no matter what sphere they are operating in, must attend to sustainability challenges.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": "True",
+    "explanation": "From Week 10 notes."
+  },
+  {
+    "id": "Q95",
+    "question": "The sustainability mindset involves the following except ___.",
+    "options": [
+      "enlightened self-interest",
+      "presencing",
+      "open-mindedness",
+      "short term orientation"
+    ],
+    "answer": "short term orientation",
+    "explanation": "From Week 10 notes."
+  },
+  {
+    "id": "Q96",
+    "question": "___ thinking is often highlighted by the ability to zoom in and zoom out.",
+    "options": [
+      "Interactive",
+      "Collaborative",
+      "Systems",
+      "Structural"
+    ],
+    "answer": "Systems",
+    "explanation": "From Week 10 notes."
+  },
+  {
+    "id": "Q97",
+    "question": "Which of the following is not one of the sustainable leadership practices?",
+    "options": [
+      "avoiding ambiguity and conflict management",
+      "making sustainability relevant to others",
+      "thinking holistically",
+      "building authentic relationships"
+    ],
+    "answer": "avoiding ambiguity and conflict management",
+    "explanation": "From Week 10 notes."
+  },
+  {
+    "id": "Q98",
+    "question": "___ is an example of a sustainability framework for integrated analysis and action.",
+    "options": [
+      "Five domains of sustainable communities",
+      "Natural step system conditions",
+      "Natural capitalism",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "explanation": "From Week 10 notes."
+  },
+  {
+    "id": "Q99",
+    "question": "Which of the following is false about sustainable leadership?",
+    "options": [
+      "addresses issues of social justice",
+      "sustains leadership of oneself only",
+      "develops rather than depletes resources",
+      "secures success over time"
+    ],
+    "answer": "sustains leadership of oneself only",
+    "explanation": "From Week 10 notes."
+  },
+  {
+    "id": "Q100",
+    "question": "The practice of inclusive leadership involves the following except ___.",
+    "options": [
+      "dialogue and consensus",
+      "coercion",
+      "democratic approaches",
+      "coaching"
+    ],
+    "answer": "coercion",
+    "explanation": "From Week 10 notes."
+  },
+  {
+    "id": "Q101",
+    "question": "The ability to detect the path as a leader and change the course of action if necessary is known as ___.",
+    "options": [
+      "rationalize",
+      "incentivize",
+      "pilot",
+      "pivot"
+    ],
+    "answer": "pivot",
+    "explanation": "From Week 10 notes."
+  },
+  {
+    "id": "Q102",
+    "question": "_________ leadership style entails transcending self-interest to serve the needs of others.",
+    "options": [
+      "Servant",
+      "radical",
+      "collaborative",
+      "visionary"
+    ],
+    "answer": "Servant",
+    "explanation": "From Week 11 notes."
+  },
+  {
+    "id": "Q103",
+    "question": "Which of the following is not a key skill of sustainable leaders?",
+    "options": [
+      "communicating vision",
+      "exercising judgment",
+      "managing complexity",
+      "alienating disciplines"
+    ],
+    "answer": "alienating disciplines",
+    "explanation": "From Week 11 notes."
+  },
+  {
+    "id": "Q104",
+    "question": "LEAD India gives a theory ___ that consists of aspects like co-initiating, co-sensing and co-evolving among others.",
+    "options": [
+      "U",
+      "C",
+      "T",
+      "S"
+    ],
+    "answer": "U",
+    "explanation": "From Week 11 notes."
+  },
+  {
+    "id": "Q105",
+    "question": "Global leaders cannot be trained since their skills are genetic.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "From Week 11 notes."
+  },
+  {
+    "id": "Q106",
+    "question": "Which of the factors helps leaders to become global leaders?",
+    "options": [
+      "making the practice an unconscious practice",
+      "staying within limits",
+      "building a support team",
+      "act based on self-interest"
+    ],
+    "answer": "building a support team",
+    "explanation": "From Week 11 notes."
+  },
+  {
+    "id": "Q107",
+    "question": "According to Maxwell's 5 levels of leadership, level 4 which highlights how people follow because of what you have done for them, is known as the level of ___.",
+    "options": [
+      "reproduction",
+      "rights",
+      "results",
+      "respect"
+    ],
+    "answer": "reproduction",
+    "explanation": "From Week 11 notes."
+  },
+  {
+    "id": "Q108",
+    "question": "Which of the following is not a core component of transformational leadership?",
+    "options": [
+      "inspirational motivation",
+      "idealised influence",
+      "intellectual stimulation",
+      "collective consideration"
+    ],
+    "answer": "collective consideration",
+    "explanation": "From Week 11 notes."
+  },
+  {
+    "id": "Q109",
+    "question": "Accurately sensing the feelings an individual has about himself or others is known as __________.",
+    "options": [
+      "unconditional positive regard",
+      "empathetic sensing",
+      "mindfulness",
+      "metacognition"
+    ],
+    "answer": "empathetic sensing",
+    "explanation": "From Week 11 notes."
+  },
+  {
+    "id": "Q110",
+    "question": "___________ technology is a key factor helping foster more sustainable urban development.",
+    "options": [
+      "blue",
+      "Green",
+      "red",
+      "white"
+    ],
+    "answer": "Green",
+    "explanation": "From Week 11 notes."
+  },
+  {
+    "id": "Q111",
+    "question": "Which of the following is a characteristic of a sustainable city?",
+    "options": [
+      "green buildings",
+      "solar farms",
+      "walkable and bike-able neighborhoods",
+      "all of the above"
+    ],
+    "answer": "all of the above",
+    "explanation": "From Week 11 notes."
+  },
+  {
+    "id": "Q112",
+    "question": "Natural resources are those that exist in the __ of human intervention.",
+    "options": [
+      "absence",
+      "presence",
+      "abundance",
+      "collaboration"
+    ],
+    "answer": "absence",
+    "explanation": "From Week 12 notes."
+  },
+  {
+    "id": "Q113",
+    "question": "SDG ___ advocates to reduce ecological footprint by changing the way we produce and consume goods and resources.",
+    "options": [
+      "1",
+      "7",
+      "12",
+      "14"
+    ],
+    "answer": "12",
+    "explanation": "From Week 12 notes."
+  },
+  {
+    "id": "Q114",
+    "question": "Over 66% of electricity produced daily is from ___.",
+    "options": [
+      "coal",
+      "water",
+      "sun",
+      "wind"
+    ],
+    "answer": "coal",
+    "explanation": "From Week 12 notes."
+  },
+  {
+    "id": "Q115",
+    "question": "___ is the largest environmental cause of disease and premature death globally.",
+    "options": [
+      "AIDS",
+      "malaria",
+      "pollution",
+      "hunger"
+    ],
+    "answer": "pollution",
+    "explanation": "From Week 12 notes."
+  },
+  {
+    "id": "Q116",
+    "question": "In order to support reform on green fiscal policy, UN Environment has established the Green Fiscal Policy Network in partnership with the ___.",
+    "options": [
+      "International Green Fund",
+      "International Consumption Fund",
+      "International Monetary Fund",
+      "International Sustenance Fund"
+    ],
+    "answer": "International Monetary Fund",
+    "explanation": "From Week 12 notes."
+  },
+  {
+    "id": "Q117",
+    "question": "The 3Rs include the following except ___.",
+    "options": [
+      "refuse",
+      "reuse",
+      "recycle",
+      "reduce"
+    ],
+    "answer": "refuse",
+    "explanation": "From Week 12 notes."
+  },
+  {
+    "id": "Q118",
+    "question": "Mobiles and computers which are thrown after use are collectively known as ___.",
+    "options": [
+      "modern waste",
+      "technology waste",
+      "global waste",
+      "e-waste"
+    ],
+    "answer": "e-waste",
+    "explanation": "From Week 12 notes."
+  },
+  {
+    "id": "Q119",
+    "question": "Gandhi's techniques of 'satyagraha' or ___, carry the means to combat many social and environmental threats, be it climate change, natural resource depletion.",
+    "options": [
+      "sustainability",
+      "violent protest",
+      "non-violent protest",
+      "spirituality"
+    ],
+    "answer": "non-violent protest",
+    "explanation": "From Week 12 notes."
+  },
+  {
+    "id": "Q120",
+    "question": "___ is the flag bearer of SDGs.",
+    "options": [
+      "AIIMS",
+      "UNESCO",
+      "UNDP",
+      "Politics"
+    ],
+    "answer": "UNESCO",
+    "explanation": "From Week 12 notes."
+  },
+  {
+    "id": "Q121",
+    "question": "Being aware of one's current thoughts, feelings and surroundings without judging oneself is called ___.",
+    "options": [
+      "generosity",
+      "gratitude",
+      "mindlessness",
+      "mindfulness"
+    ],
+    "answer": "mindfulness",
+    "explanation": "From Week 12 notes."
+  }
+]
