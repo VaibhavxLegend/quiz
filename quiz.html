@@ -1,0 +1,603 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Practice</title>
+    <style>
+      :root {
+        --bg: #0b1020;
+        --panel: #111827;
+        --panel2: #1f2937;
+        --text: #e5e7eb;
+        --muted: #9ca3af;
+        --accent: #60a5fa;
+        --good: #34d399;
+        --bad: #f87171;
+        --border: #334155;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+        color: var(--text);
+        background: radial-gradient(circle at top, #172554, var(--bg) 55%);
+        font-family:
+          Inter,
+          system-ui,
+          -apple-system,
+          Segoe UI,
+          Roboto,
+          Arial,
+          sans-serif;
+      }
+      .app {
+        width: min(920px, 100%);
+        background: rgba(17, 24, 39, 0.94);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+      }
+      header {
+        padding: 20px 24px;
+        border-bottom: 1px solid var(--border);
+        background: linear-gradient(
+          90deg,
+          rgba(96, 165, 250, 0.16),
+          rgba(52, 211, 153, 0.1)
+        );
+      }
+      h1 {
+        margin: 0 0 8px;
+        font-size: clamp(1.5rem, 2vw, 2rem);
+      }
+      .sub {
+        color: var(--muted);
+        line-height: 1.5;
+      }
+      .stats {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 14px;
+      }
+      .pill {
+        padding: 8px 12px;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        background: rgba(255, 255, 255, 0.04);
+        font-size: 0.9rem;
+      }
+      main {
+        padding: 24px;
+        display: grid;
+        gap: 18px;
+      }
+      .card {
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        padding: 20px;
+      }
+      .status {
+        color: var(--muted);
+      }
+      .meta {
+        color: var(--muted);
+        font-size: 0.92rem;
+        margin-bottom: 12px;
+      }
+      .question {
+        margin: 0 0 14px;
+        white-space: pre-wrap;
+        line-height: 1.5;
+        font-size: clamp(1.1rem, 2vw, 1.45rem);
+      }
+      .options {
+        display: grid;
+        gap: 10px;
+      }
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 16px;
+      }
+      button {
+        border: 1px solid var(--border);
+        background: var(--panel2);
+        color: var(--text);
+        border-radius: 14px;
+        padding: 12px 14px;
+        cursor: pointer;
+        font: inherit;
+      }
+      button:hover {
+        border-color: var(--accent);
+      }
+      button:disabled {
+        opacity: 0.7;
+        cursor: not-allowed;
+      }
+      .option.correct {
+        border-color: rgba(52, 211, 153, 0.85);
+        background: rgba(52, 211, 153, 0.14);
+      }
+      .option.wrong {
+        border-color: rgba(248, 113, 113, 0.85);
+        background: rgba(248, 113, 113, 0.14);
+      }
+      .input-row {
+        display: grid;
+        gap: 10px;
+      }
+      input[type="text"] {
+        width: 100%;
+        padding: 13px 14px;
+        border-radius: 14px;
+        border: 1px solid var(--border);
+        background: rgba(15, 23, 42, 0.9);
+        color: var(--text);
+        font: inherit;
+        outline: none;
+      }
+      input[type="text"]:focus {
+        border-color: var(--accent);
+      }
+      .feedback {
+        margin-top: 14px;
+        min-height: 1.5em;
+        font-weight: 600;
+      }
+      .good {
+        color: var(--good);
+      }
+      .bad {
+        color: var(--bad);
+      }
+      .neutral {
+        color: var(--muted);
+      }
+      .explanation {
+        margin-top: 10px;
+        color: var(--muted);
+        white-space: pre-wrap;
+        line-height: 1.5;
+      }
+      .hidden {
+        display: none !important;
+      }
+      .empty {
+        padding: 20px;
+        border: 1px dashed var(--border);
+        border-radius: 16px;
+        color: var(--muted);
+        line-height: 1.6;
+        background: rgba(255, 255, 255, 0.02);
+      }
+      code,
+      pre {
+        background: rgba(255, 255, 255, 0.05);
+        padding: 2px 6px;
+        border-radius: 8px;
+      }
+      pre {
+        overflow: auto;
+        padding: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <h1>Quiz Practice</h1>
+        <div class="sub">
+          Loads questions from <code>quiz.json</code>. Wrong answers are placed
+          back into the stack at a random position.
+        </div>
+        <div class="stats">
+          <div class="pill" id="statTotal">Total: 0</div>
+          <div class="pill" id="statSeen">Seen: 0</div>
+          <div class="pill" id="statCorrect">Correct: 0</div>
+          <div class="pill" id="statWrong">Wrong: 0</div>
+          <div class="pill" id="statRemaining">Remaining: 0</div>
+        </div>
+      </header>
+
+      <main>
+        <div class="card">
+          <div class="status" id="status">Loading quiz.json…</div>
+        </div>
+
+        <div class="card hidden" id="quizCard">
+          <div class="meta" id="progress"></div>
+          <p class="question" id="questionText"></p>
+          <div id="choiceArea" class="options"></div>
+
+          <div id="textArea" class="input-row hidden">
+            <input
+              id="textAnswer"
+              type="text"
+              placeholder="Type your answer"
+              autocomplete="off"
+            />
+            <div class="actions">
+              <button id="submitText">Submit</button>
+              <button id="skipBtn">Skip</button>
+            </div>
+          </div>
+
+          <div class="actions">
+            <button id="nextBtn" disabled>Next</button>
+            <button id="shuffleBtn">Reshuffle</button>
+          </div>
+
+          <div class="feedback neutral" id="feedback"></div>
+          <div class="explanation hidden" id="explanation"></div>
+        </div>
+
+        <div class="empty hidden" id="emptyState">
+          No quiz questions were loaded.
+          <br /><br />
+          Expected <code>quiz.json</code> to contain an array like:
+          <pre>[{"question":"2 + 2?","options":["3","4"],"answer":"4"}]</pre>
+        </div>
+      </main>
+    </div>
+
+    <script>
+      const state = {
+        questions: [],
+        deck: [],
+        current: null,
+        answeredCount: 0,
+        correctCount: 0,
+        wrongCount: 0,
+        locked: false,
+        timer: null,
+      };
+
+      const els = {
+        status: document.getElementById("status"),
+        progress: document.getElementById("progress"),
+        questionText: document.getElementById("questionText"),
+        choiceArea: document.getElementById("choiceArea"),
+        textArea: document.getElementById("textArea"),
+        textAnswer: document.getElementById("textAnswer"),
+        submitText: document.getElementById("submitText"),
+        skipBtn: document.getElementById("skipBtn"),
+        nextBtn: document.getElementById("nextBtn"),
+        shuffleBtn: document.getElementById("shuffleBtn"),
+        feedback: document.getElementById("feedback"),
+        explanation: document.getElementById("explanation"),
+        quizCard: document.getElementById("quizCard"),
+        emptyState: document.getElementById("emptyState"),
+        statTotal: document.getElementById("statTotal"),
+        statSeen: document.getElementById("statSeen"),
+        statCorrect: document.getElementById("statCorrect"),
+        statWrong: document.getElementById("statWrong"),
+        statRemaining: document.getElementById("statRemaining"),
+      };
+
+      function shuffle(arr) {
+        const copy = [...arr];
+        for (let i = copy.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [copy[i], copy[j]] = [copy[j], copy[i]];
+        }
+        return copy;
+      }
+
+      function normalizeText(value) {
+        return String(value ?? "")
+          .trim()
+          .toLowerCase()
+          .replace(/\s+/g, " ");
+      }
+
+      function normalizeQuestion(raw, index) {
+        const options = Array.isArray(raw.options)
+          ? raw.options
+          : Array.isArray(raw.choices)
+            ? raw.choices
+            : [];
+
+        let correct =
+          raw.answer ?? raw.correct ?? raw.correctAnswer ?? raw.solution;
+        if (
+          typeof raw.correctIndex === "number" &&
+          options[raw.correctIndex] !== undefined
+        ) {
+          correct = options[raw.correctIndex];
+        }
+
+        return {
+          id: raw.id ?? `${index}-${Math.random().toString(36).slice(2)}`,
+          question: String(
+            raw.question ?? raw.prompt ?? raw.text ?? `Question ${index + 1}`,
+          ),
+          options,
+          correct: correct == null ? "" : String(correct),
+          explanation: String(raw.explanation ?? raw.hint ?? ""),
+          acceptableAnswers: Array.isArray(raw.acceptableAnswers)
+            ? raw.acceptableAnswers.map(String)
+            : [],
+        };
+      }
+
+      function updateStats() {
+        els.statTotal.textContent = `Total: ${state.questions.length}`;
+        els.statSeen.textContent = `Seen: ${state.answeredCount}`;
+        els.statCorrect.textContent = `Correct: ${state.correctCount}`;
+        els.statWrong.textContent = `Wrong: ${state.wrongCount}`;
+        els.statRemaining.textContent = `Remaining: ${state.deck.length}`;
+      }
+
+      function clearFeedback() {
+        els.feedback.className = "feedback neutral";
+        els.feedback.textContent = "";
+        els.explanation.classList.add("hidden");
+        els.explanation.textContent = "";
+      }
+
+      function setStatus(text) {
+        els.status.textContent = text;
+      }
+
+      function showEmpty(message) {
+        els.quizCard.classList.add("hidden");
+        els.emptyState.classList.remove("hidden");
+        els.emptyState.innerHTML = message;
+      }
+
+      function isCorrectAnswer(question, value) {
+        const guess = normalizeText(value);
+        const candidates = [
+          question.correct,
+          ...question.acceptableAnswers,
+        ].filter(Boolean);
+        return candidates.some((ans) => normalizeText(ans) === guess);
+      }
+
+      function shuffleOptions(question) {
+        return shuffle(question.options);
+      }
+
+      function pickNextQuestion() {
+        if (!state.deck.length) return null;
+        return state.deck.pop();
+      }
+
+      function reinsertQuestion(question) {
+        const insertIndex = Math.floor(Math.random() * (state.deck.length + 1));
+        state.deck.splice(insertIndex, 0, question);
+      }
+
+      function renderQuestion(question) {
+        clearFeedback();
+        els.quizCard.classList.remove("hidden");
+        els.questionText.textContent = question.question;
+        els.progress.textContent = `Question ${state.answeredCount + 1}`;
+        els.choiceArea.innerHTML = "";
+        els.textAnswer.value = "";
+
+        const renderedOptions = shuffleOptions(question);
+        state.current.renderedOptions = renderedOptions;
+
+        const hasChoices = renderedOptions.length > 0;
+        els.choiceArea.classList.toggle("hidden", !hasChoices);
+        els.textArea.classList.toggle("hidden", hasChoices);
+        els.nextBtn.disabled = true;
+        state.locked = false;
+
+        if (hasChoices) {
+          renderedOptions.forEach((option) => {
+            const btn = document.createElement("button");
+            btn.className = "option";
+            btn.textContent = option;
+            btn.addEventListener("click", () => submitAnswer(option));
+            els.choiceArea.appendChild(btn);
+          });
+        } else {
+          setTimeout(() => els.textAnswer.focus(), 0);
+        }
+      }
+
+      function revealAnswer(chosen) {
+        const question = state.current;
+        if (!question) return;
+
+        const expected = question.correct;
+        if (question.renderedOptions.length > 0) {
+          [...els.choiceArea.children].forEach((btn) => {
+            if (normalizeText(btn.textContent) === normalizeText(expected))
+              btn.classList.add("correct");
+            if (
+              chosen != null &&
+              normalizeText(btn.textContent) === normalizeText(chosen) &&
+              normalizeText(chosen) !== normalizeText(expected)
+            ) {
+              btn.classList.add("wrong");
+            }
+            btn.disabled = true;
+          });
+        }
+      }
+
+      function finishAnswer(correct, chosen) {
+        state.answeredCount += 1;
+        if (correct) {
+          state.correctCount += 1;
+          els.feedback.className = "feedback good";
+          els.feedback.textContent = "Correct.";
+        } else {
+          state.wrongCount += 1;
+          els.feedback.className = "feedback bad";
+          els.feedback.textContent = "Wrong. It was put back into the stack.";
+          reinsertQuestion(state.current);
+        }
+
+        els.explanation.classList.remove("hidden");
+        els.explanation.textContent = state.current.explanation
+          ? `Answer: ${state.current.correct || "(see quiz.json)"}\n${state.current.explanation}`
+          : `Answer: ${state.current.correct || "(see quiz.json)"}`;
+
+        revealAnswer(chosen);
+        updateStats();
+        state.locked = true;
+
+        clearTimeout(state.timer);
+        state.timer = setTimeout(advance, 900);
+      }
+
+      function submitAnswer(value) {
+        if (!state.current || state.locked) return;
+        const correct = isCorrectAnswer(state.current, value);
+        finishAnswer(correct, value);
+      }
+
+      function submitTextAnswer() {
+        submitAnswer(els.textAnswer.value);
+      }
+
+      function skipQuestion() {
+        if (!state.current || state.locked) return;
+        state.wrongCount += 1;
+        state.answeredCount += 1;
+        reinsertQuestion(state.current);
+        els.feedback.className = "feedback bad";
+        els.feedback.textContent = "Skipped. It was put back into the stack.";
+        els.explanation.classList.remove("hidden");
+        els.explanation.textContent = `Answer: ${state.current.correct || "(see quiz.json)"}`;
+        revealAnswer(null);
+        updateStats();
+        state.locked = true;
+        clearTimeout(state.timer);
+        state.timer = setTimeout(advance, 700);
+      }
+
+      function advance() {
+        state.current = pickNextQuestion();
+        updateStats();
+
+        if (!state.current) {
+          setStatus("Done. Reshuffle to practice again.");
+          els.questionText.textContent = "No more questions right now.";
+          els.choiceArea.innerHTML = "";
+          els.choiceArea.classList.add("hidden");
+          els.textArea.classList.add("hidden");
+          els.feedback.className = "feedback neutral";
+          els.feedback.textContent =
+            "You have reached the end of the current deck.";
+          els.nextBtn.disabled = true;
+          return;
+        }
+
+        setStatus("Answer the question. Wrong answers go back into the stack.");
+        renderQuestion(state.current);
+      }
+
+      function reshuffleDeck() {
+        clearTimeout(state.timer);
+        state.deck = shuffle(state.questions);
+        state.answeredCount = 0;
+        state.correctCount = 0;
+        state.wrongCount = 0;
+        state.current = null;
+        setStatus("Deck reshuffled.");
+        updateStats();
+        advance();
+      }
+
+      function initializeQuizData(data) {
+        if (!Array.isArray(data))
+          throw new Error("quiz.json must contain an array.");
+
+        state.questions = data.map(normalizeQuestion).filter((q) => q.question);
+        state.deck = shuffle(state.questions);
+        updateStats();
+
+        if (!state.questions.length) {
+          showEmpty("quiz.json loaded, but no valid questions were found.");
+          setStatus("No questions available.");
+          return;
+        }
+
+        advance();
+      }
+
+      function showManualJsonLoader(errorMessage) {
+        showEmpty(
+          `Could not load <code>quiz.json</code> automatically.<br />${errorMessage}<br /><br />` +
+            `If you opened this page directly from disk, your browser may block <code>fetch</code> for local files.<br /><br />` +
+            `<button id="pickJsonBtn">Choose quiz.json manually</button>`,
+        );
+
+        const pickBtn = document.getElementById("pickJsonBtn");
+        if (!pickBtn) return;
+
+        pickBtn.addEventListener("click", () => {
+          const input = document.createElement("input");
+          input.type = "file";
+          input.accept = "application/json,.json";
+          input.addEventListener("change", async () => {
+            const file = input.files && input.files[0];
+            if (!file) return;
+
+            try {
+              const text = await file.text();
+              const data = JSON.parse(text);
+              els.emptyState.classList.add("hidden");
+              initializeQuizData(data);
+              setStatus("Quiz loaded from selected file.");
+            } catch (err) {
+              setStatus("Selected file is not a valid quiz JSON.");
+              showEmpty(
+                `Selected file could not be loaded.<br />${String(err.message || err)}`,
+              );
+            }
+          });
+          input.click();
+        });
+      }
+
+      async function loadQuiz() {
+        try {
+          const res = await fetch("quiz.json", { cache: "no-store" });
+          if (!res.ok)
+            throw new Error(`Failed to load quiz.json (${res.status})`);
+          const data = await res.json();
+          initializeQuizData(data);
+        } catch (err) {
+          const message = String(err.message || err);
+          if (window.location.protocol === "file:") {
+            showManualJsonLoader(message);
+            setStatus(
+              "Unable to auto-load quiz.json on file://. Use manual loader.",
+            );
+            return;
+          }
+
+          showEmpty(`Could not load <code>quiz.json</code>.<br />${message}`);
+          setStatus("Unable to load quiz.json.");
+        }
+      }
+
+      els.submitText.addEventListener("click", submitTextAnswer);
+      els.skipBtn.addEventListener("click", skipQuestion);
+      els.nextBtn.addEventListener("click", advance);
+      els.shuffleBtn.addEventListener("click", reshuffleDeck);
+      els.textAnswer.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") submitTextAnswer();
+      });
+
+      loadQuiz();
+    </script>
+  </body>
+</html>
